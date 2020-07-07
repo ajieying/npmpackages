@@ -1,0 +1,32 @@
+{
+  "name": "ljj-test-packages",
+  "version": "1.0.0",
+  "description": "ljj test packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Error: no test specified && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajieying/npmpackages.git"
+  },
+  "keywords": [
+    "test",
+    "packages"
+  ],
+  "author": "ajieying",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajieying/npmpackages/issues"
+  },
+  "homepage": "https://github.com/ajieying/npmpackages#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  },
+   "bin": {
+    "vm2": "./bin/vm2"
+  }
+}
